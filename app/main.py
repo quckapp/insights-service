@@ -1,5 +1,5 @@
 """
-QuikApp Insights Service
+QuckApp Insights Service
 
 Provides analytics, metrics, and business intelligence for the platform.
 """
@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="QuikApp Insights Service",
+    title="QuckApp Insights Service",
     description="Analytics and Business Intelligence API",
     version="1.0.0",
     docs_url="/docs",

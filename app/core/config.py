@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     PORT: int = 5018
 
     # Database
-    DATABASE_URL: str = "mysql+asyncmy://quikapp:quikapp@localhost:3306/quikapp_insights"
+    DATABASE_URL: str = "mysql+asyncmy://quckapp:quckapp@localhost:3306/quckapp_insights"
 
     # Redis
     REDIS_HOST: str = "localhost"
